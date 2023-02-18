@@ -5,61 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./quiz.css">
-    <link rel="stylesheet" href="../Navbar/navbar.css">
     <title>Quiz Page</title>
 </head>
 <body>
-    <div id="navbar">
+    <section class="main">
 
-    </div>
-    <div id="container">
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-        <h1>Hello World!</h1>
-    </div>
+        <div class="container">
+            <div class="col">
+                <h2 id="questionBox">
+                    1) Question shows here.
+                </h2>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="first" value="a" required>
+                <label for="first">Answer 1</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="second" value="b" required>
+                <label for="second">Answer 2</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="third" value="c" required>
+                <label for="third">Answer 3</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="fourth" value="d" required>
+                <label for="fourth">Answer 4</label>
+            </div>
+            <div id="buttons">
+                <button id="submit">Submit</button>
+                <button id="skip">Skip</button>
+            </div>
+        </div>
+
+    </section>
 </body>
 </html>
 
-<script src="./common.js"></script>
-<script src="./navbarImport.js" type="module"></script>
+<script src="./quiz.js"></script>
