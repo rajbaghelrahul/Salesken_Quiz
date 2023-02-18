@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    border: 2px solid red;
+}
+#navbar > ul {
+    margin: auto;
+    border: 2px solid blue;
+    display: flex;
+    list-style: none;
+    background-color: rgb(234, 230, 230);
+}
+#navbar > ul > a {
+    border: 2px solid green;
+    margin: 1%;
+    padding: 1% 2%;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#navbar > ul {
+    cursor: pointer;
+}

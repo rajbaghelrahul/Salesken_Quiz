@@ -1,0 +1,34 @@
+var arr = JSON.parse(localStorage.getItem("SignUp")) || [];
+
+function signUp(e){
+    event.preventDefault();
+    var signup_data = {
+        name: document.getElementById("signup_name").value,
+        email: document.getElementById("signup_Email").value,
+        password: document.getElementById("signup_password").value
+    }
+        arr.push(signup_data);
+        localStorage.setItem("SignUp", JSON.stringify(arr));
+        window.location.href="./login.html";
+}
+
+function login(e){
+    event.preventDefault();
+    var email = document.getElementById("login_Email").value;
+    var password = document.getElementById("login_password").value;
+
+    var flag = false;
+    for(var i=0; i<arr.length; i++){
+        if(arr[i].email === email && arr[i].password === password){
+            flag = true;
+            break;
+        }
+    }
+    if(flag){
+        alert("login successfully");
+        window.location.href="../index.html";
+    }
+    else{
+        alert("Enter correct Email And Password");
+    }
+}
