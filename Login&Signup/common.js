@@ -21,7 +21,7 @@ function signUp(e){
     }
         arr.push(signup_data);
         localStorage.setItem("SignUp", JSON.stringify(arr));
-        window.location.href="./login.html";
+        window.location.href="../index.html";
 }
 
 function login(e){
@@ -38,7 +38,7 @@ function login(e){
     }
     if(flag){
         alert("login successfully");
-        window.location.href="../index.html";
+        window.location.href="./Login&Signup/quiz.html";
     }
     else{
         alert("Enter correct Email And Password");

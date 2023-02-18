@@ -6,60 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./Navbar/navbar.css">
-    <title>Quiz Page</title>
+    <link rel="stylesheet" href="./Login&Signup/quiz.css">
+    <title>Login Page</title>
 </head>
 <body>
     <div id="navbar">
 
     </div>
-    <div class="container">
-        <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
-    <h1>Hello Quiz page</h1>
+    <div class = "container">
+        <div class = "login">
+            <form onsubmit="login(event)">
+
+                <h2>Login</h2>
+                
+                <label>Email</label>
+                
+                <input type="Email" id = "login_Email" placeholder="Enter Email">
+                
+                <label>Password</label>
+                
+                <input type="Password" id="login_password" placeholder="Enter Password">
+                
+                <input type="submit" id="log" value = "login">
+            </form>
+            <p>Don't have an account?<a href="./Login&Signup/signUp.html"><button id="btn">Sign Up</button></a> </p>
+        </div>
     </div>
 </body>
 </html>
 
 <script src="./index.js"></script>
+<script src="./Login&Signup/common.js"></script>
 <script src="./Login&Signup/navbarImport.js" type="module"></script>
