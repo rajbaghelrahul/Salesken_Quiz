@@ -9,20 +9,20 @@ Our task is that we have to create a Quiz App with functionalities Login and Sig
 
 ## Login Page
 
-<img src="https://i.postimg.cc/VN0TdpZg/login.png" />
+<img src="https://i.postimg.cc/VLCPSSSn/login.png" />
 
 ## SignUp Page
 
-<img src="https://i.postimg.cc/HkhRWdzj/signUp.png"/>
+<img src="https://i.postimg.cc/JzCVj1Jg/signUp.png"/>
 
 
 ## Quiz Page
 
-<img src="https://i.postimg.cc/SxsHpJWw/quiz.png"/>
+<img src="https://i.postimg.cc/Kv6FQ7X0/quiz.png"/>
 
 ## Result
 
-<img src="https://i.postimg.cc/gk415v6V/result.png"/>
+<img src="https://i.postimg.cc/5yGJhLXN/result.png"/>
 
 
 **IDE & TECH TOOL**
