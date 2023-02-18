@@ -1,6 +1,5 @@
 #bodySection {
-    /* background-color: rgb(55, 4, 90); */
-    background-color: orange;
+    background-image: linear-gradient(120deg,#4687D2, #7B56B7);
 }
 .container {
     margin-top: 80px;
@@ -8,6 +7,7 @@
 .signup {
     background-color: white;
     /* border: 2px solid red; */
+    border-radius: 10px;
     height: 550px;
     width: 30%;
     margin: auto;
@@ -36,18 +36,27 @@
     margin-bottom: 10px;
 }
 .signup > form > #sign {
-    background-color: #2563eb;
+    background-image: linear-gradient(120deg, #3994D9, #8E45AD);
     border: none;
     color: white;
+    font-weight: bold;
     font-size: 20px;
 }
+.signup > form > #sign:hover {
+    cursor: pointer;
+}
 .signup > p > a > #btn {
+    background-color: transparent;
     height: 30px;
     color: red;
+    font-weight: bold;
     padding: 2px 5px;
     border: none;
     font-size: 15px;
     margin-left: 1%;
+}
+.signup > p > a > #btn:hover {
+    cursor: pointer;
 }
 .signup > form > p{
     text-align: center;
