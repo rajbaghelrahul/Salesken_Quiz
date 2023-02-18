@@ -31,51 +31,51 @@ const quizData = [{
     correct: "b",
 },
 {
-    question: "What does CSS stands for?",
-    a: "Hypertext Markup Language",
-    b: "Cascading Style Sheet",
-    c: "Jason Object Notation",
-    d: "Helicopters Terminals Motorboats Lamborginis",
+    question: "Which type of JavaScript language is ___?",
+    a: "Object-Oriented",
+    b: "Object-Based",
+    c: "Assembly-language",
+    d: "High-level",
     correct: "b",
 },
 {
-    question: "What does CSS stands for?",
-    a: "Hypertext Markup Language",
-    b: "Cascading Style Sheet",
-    c: "Jason Object Notation",
-    d: "Helicopters Terminals Motorboats Lamborginis",
+    question: "What geometric shape is generally used for stop signs?",
+    a: "Hexagon",
+    b: "Octagon",
+    c: "Circle",
+    d: "Triangle",
     correct: "b",
 },
 {
-    question: "What does CSS stands for?",
-    a: "Hypertext Markup Language",
-    b: "Cascading Style Sheet",
-    c: "Jason Object Notation",
-    d: "Helicopters Terminals Motorboats Lamborginis",
-    correct: "b",
+    question: "What type of animal was Harambe, who was shot after a child fell into it&#039;s enclosure at the Cincinnati Zoo?",
+    a: "Tiger",
+    b: "Panda",
+    c: "Crocodile",
+    d: "Gorilla",
+    correct: "d",
 },
 {
-    question: "What does CSS stands for?",
-    a: "Hypertext Markup Language",
-    b: "Cascading Style Sheet",
-    c: "Jason Object Notation",
-    d: "Helicopters Terminals Motorboats Lamborginis",
-    correct: "b",
+    question: "What is on display in the Madame Tussaud&#039;s museum in London?",
+    a: "Wax sculptures",
+    b: "Designer clothing",
+    c: "Unreleased",
+    d: "Vintage cars",
+    correct: "a",
 },
 {
-    question: "What does CSS stands for?",
-    a: "Hypertext Markup Language",
-    b: "Cascading Style Sheet",
-    c: "Jason Object Notation",
-    d: "Helicopters Terminals Motorboats Lamborginis",
-    correct: "b",
+    question: "According to Sherlock Holmes, &quot;If you eliminate the impossible, whatever remains, however improbable, must be the...&quot;",
+    a: "Truth",
+    b: "Answer",
+    c: "Cause",
+    d: "Source",
+    correct: "a",
 },
 {
-    question: "What does CSS stands for?",
-    a: "Hypertext Markup Language",
-    b: "Cascading Style Sheet",
-    c: "Jason Object Notation",
-    d: "Helicopters Terminals Motorboats Lamborginis",
+    question: "What company developed the vocaloid Hatsune Miku?",
+    a: "Sega",
+    b: "Crypton Future Media",
+    c: "Sony",
+    d: "Yamaha Corporation",
     correct: "b",
 }
 ];
@@ -148,7 +148,7 @@ document.getElementsByClassName("container")[0].innerHTML = `
         <h1> Your Score : ${correct} out of ${total}</h1>
         <h3> Correct answers : ${correct} </h3>
         <h3> Wrong answers : ${incorrect} </h3>
-        <h3> skipped answer : ${skip} </h3>
+        <h3> Skipped answer : ${skip} </h3>
     </div>
 `
 }
