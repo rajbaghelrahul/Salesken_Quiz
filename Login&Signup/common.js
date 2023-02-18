@@ -1,3 +1,15 @@
+console.log("Hello world! I'm Login & Sign Up");
+
+// const navbar = require('navbar');
+// import navbar from '../Navbar/navbar.js';
+
+// document.body.innerHTML = navbar()
+// document.getElementById("navbar").innerHTML = navbar();
+
+
+
+
+
 var arr = JSON.parse(localStorage.getItem("SignUp")) || [];
 
 function signUp(e){

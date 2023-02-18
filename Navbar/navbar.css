@@ -3,23 +3,29 @@
     padding: 0;
 }
 #navbar {
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    background-color: rgb(234, 230, 230);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
 }
 #navbar > ul {
-    margin: auto;
-    border: 2px solid blue;
+    display: flex;
+    /* border: 2px solid blue; */
     display: flex;
     list-style: none;
-    background-color: rgb(234, 230, 230);
 }
 #navbar > ul > a {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 1%;
-    padding: 1% 2%;
-    font-size: large;
-    font-weight: bold;
+    /* padding: 1% 2%; */
     text-decoration: none;
     color: black;
+}
+#navbar > ul > a > li {
+    font-size: x-large;
+    font-weight: bolder;
 }
 #navbar > ul {
     cursor: pointer;
