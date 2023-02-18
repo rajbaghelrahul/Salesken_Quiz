@@ -18,7 +18,7 @@ function checkUser() {
         email_present = true;
         if (element.user_password == user_password) {
           alert("Login Successfull");
-          location.href = "./Login&Signup/quiz.html";
+          window.location.href = "./Components/quiz.html";
         } else {
           alert("Password is incorrect");
           return false;
